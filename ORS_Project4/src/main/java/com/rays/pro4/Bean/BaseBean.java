@@ -14,7 +14,7 @@ import java.sql.Timestamp;
 
 public abstract class BaseBean implements Serializable, DropdownListBean, Comparable<BaseBean> {
 
-	protected long id;
+	protected long ID;
 	protected String createdBy;
 	protected String modifiedBy;
 	protected Timestamp createdDatetime;
